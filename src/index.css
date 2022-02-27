@@ -1,13 +1,38 @@
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --background: rgb(216, 216, 216);
+  --background-gradient: linear-gradient(
+    90deg,
+    rgba(216, 216, 216, 1) 0%,
+    rgba(190, 189, 190, 1) 100%
+  );
+  --text-primary: #050d2d;
+  --secondary-color: #b4b4b4;
+  --third-color: #e0e0e0;
+  --navbar-color: #b4b4b4;
+  --call-to-action: #403f44;
+  --call-to-action-hover: #282631;
+  --cards-icon-container: #c4c4c4;
+  --cards-icon-bg: #d5d9e7;
+}
+
+[data-theme="dark"] {
+  --background: rgb(64, 63, 68);
+  --background-gradient: linear-gradient(
+    90deg,
+    rgba(64, 63, 68, 1) 0%,
+    rgba(30, 27, 50, 1) 100%
+  );
+  --text-primary: white;
+  --secondary-color: #71737a;
+  --third-color: #403f44;
+  --navbar-color: #403f44;
+  --call-to-action: #d5d9e7;
+  --call-to-action-hover: #a6b5e9;
+  --cards-icon-container: #050d2d;
+  --cards-icon-bg: #403f44;
 }
