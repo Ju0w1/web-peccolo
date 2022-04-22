@@ -98,7 +98,7 @@ export const NavBtn = styled.nav`
     }
 `
 
-export const NavBtnLink = styled(LinkR)`
+export const NavBtnLink = styled(LinkS)`
     border-radius: 50px;
     background: var(--call-to-action);
     white-space: nowrap;

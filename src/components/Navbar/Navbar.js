@@ -52,7 +52,7 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to='/presupuesto'>Presupuesto</NavBtnLink>
+                        <NavBtnLink to='contact' smooth={true} duration={500} spy={true} exact={'true'} offset={-200} activeClass="active">Presupuesto</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
